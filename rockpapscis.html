@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Game</title>
+	<link rel="stylesheet" href="rock.css">
+	<script src="rock.js"></script>
+</head>
+<body>
+	<h3 style="color:rgb(4, 41, 164); text-align: center; padding: 10px;" >PLAY TIME!!!</h3>
+	<div id="div1" style="padding: 20px;">
+		<div class="container">
+			<div class="card">
+				<div class="intro">USER 1</div>
+				<button onclick="score1()" class="bt">Play</button>
+				<img src="us1.png">
+			</div>
+			<div id="div2"></div>
+		</div>
+		<div class="container">
+			<div class="card">
+				<div class="intro">USER 2</div>
+				<button onclick="score2()" class="bt">Play</button>
+				<img src="us2.jpg">
+			</div>
+			<div id="div3"></div>
+		</div>
+		<button onclick="score()" id="btn">Press</button>
+		<div style="display: flex; width: 600px; height: 400px;">
+		<!-- <img src="one.jpg" id="winn" style="visibility: hidden;" height="200px;" width="200px;"> -->
+		<!-- <img src="two.jpg" id="wint" style="visibility: hidden;" height="200px;" width="200px;"> -->
+		<img id="im" style="visibility: hidden;" height="400px;" width="400px;"> 
+		</div>
+	</div>
+</body>
+</html>

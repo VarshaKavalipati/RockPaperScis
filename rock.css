@@ -1,0 +1,42 @@
+body{
+    background-color: 	rgba(128, 128, 128, 0.719);
+}
+#div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container{
+    position: relative;
+    float: left;
+}
+.card{
+    height: 420px;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(50,50,50,0.1);
+    padding: 50px 0;
+    background-color: rgb(245, 255, 205);
+}
+.bt{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+#div2{
+    background-color: rgb(205, 238, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+#div3{
+    background-color: rgb(205, 238, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 10px 10px;
+}

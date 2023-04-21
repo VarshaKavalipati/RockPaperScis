@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="rps.css" rel="stylesheet">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <h1 style="color:rgb(255, 0, 106); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font:bold; text-align:center">GAME TIME!</h1>
+    <div class="icons">
+        <div class="container">
+            <div id="fist" class="box" onclick="f()">✊</div>
+            <div id="hand" class="box" onclick="h()">🤚</div>
+            <div id="cross" class="box" onclick="s()">✌</div>
+        </div>
+        <div class="res">
+            <div id="score" class="bx"> </div>
+            <div id="analysis" class="bx"> </div>
+            <div id="result" class="bx"> </div>
+            <button onclick="stp()" id="stop">🔴</button>
+        </div>
+    </div>
+    <script src="rps.js"></script>
+</body>
+</html>
